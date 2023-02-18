@@ -121,27 +121,29 @@ button:active {
 }
 .scoreboard .human {
   margin-left: 50vh;
-  border-color: #dfd3c3;
+  border-color: whitwhite;
   border-style: solid;
   text-align: center;
   padding: 32px;
-  color: #dfd3c3;
+  color: whitwhite;
   height: 75px;
   width: 75px;
+  margin-bottom: 32px;
 }
 .scoreboard .computer {
   margin-right: 50vh;
-  border-color: #dfd3c3;
+  border-color: whitwhite;
   border-style: solid;
   text-align: center;
   padding: 32px;
-  color: #dfd3c3;
+  color: white;
   height: 75px;
   width: 75px;
+  margin-bottom: 32px;
 }
 
 .msg {
-  color: #dfd3c3;
+  color: white;
   font-size: large;
 }
 .human {

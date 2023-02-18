@@ -94,7 +94,7 @@ function displayResult(
     result.textContent = '';
     msg6.textContent = `Victory! Enemy Selection: ${computerSelection}`;
     result.appendChild(msg6);
-  } else if (userscore >= 3 || computerscore >= 3) {
+  } else if (userscore === 3 || computerscore === 3) {
     const msg6 = document.createElement('p');
     msg6.textContent = `Game Over`;
     result.textContent = '';
