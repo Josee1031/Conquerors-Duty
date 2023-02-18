@@ -4,10 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <script src="./script.js"></script>
+    <div class="title hidden tran">
+      <h1>Conqueror's Duty</h1>
+      <div class="tran">
+        <h3 class="subheading">
+          Duel your Way into Conquering The Seven Kingdoms.
+        </h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="instruct">
+        <h1><em>Challenge by Combat</em></h1>
+        <h3>Choose your Weapon of Preference:</h3>
+        <p>
+          Hint: Mobility defeats Range, Strength defeats Mobility, and Range
+          defeats Strength
+        </p>
+      </div>
+      <div class="combat">
+        <div class=" hidden img">
+          <button
+            id="rock"
+            type="submit"
+            value="submit_button"
+            class="dagger btn"
+          >
+            <img src="images/346389-200.png" height="200" width="200" />
+          </button>
+          <p>Dagger: Mobility</p>
+        </div>
+        <div class=" hidden img">
+          <button
+            id="paper"
+            type="submit"
+            value="submit_button"
+            class="btn"
+          >
+            <img src="images/sword.png" height="200" width="200" />
+          </button>
+          <p>Sword: Strength</p>
+        </div>
+        <div class=" hidden img">
+          <button
+            id="scissors"
+            type="submit"
+            value="submit_button"
+            class="bow btn"
+          >
+            <img src="images/bow.png" height="200" width="200" />
+          </button>
+          <p>Bow: Range</p>
+        </div>
+      </div>
+      <div class="scoreboard">
+        <div class="human card">
+          
+          <div class="hs">0</div>
+          <p>Your Score:</p>
+        </div>
+        <div class="msg">
+
+          <div class = "play">
+            
+          </div>
+        </div>
+        <div class="computer card">
+          <div class="cs">0</div>
+          <p>Enemy's Score:</p>
+        </div>
+        </div>
+        
+    
   </body>
 </html>
