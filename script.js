@@ -46,7 +46,11 @@ function playRound(playerSelection, computerSelection) {
     (playerSelection === 'Sword' && computerSelection === 'Bow')
   ) {
     computerscore = ++computerscore;
-  } else {
+  } else if (
+    (computerSelection === 'Dagger' && playerSelection === 'Sword') ||
+    (computerSelection === 'Bow' && playerSelection === 'Dagger') ||
+    (computerSelection === 'Sword' && playerSelection === 'Bow')
+  ) {
     userscore = ++userscore;
   }
 }
