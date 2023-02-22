@@ -112,3 +112,13 @@ const observer = new IntersectionObserver((entries) => {
 });
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
+
+var siteWidth = 1280;
+var scale = screen.width / siteWidth;
+
+document
+  .querySelector('meta[name="viewport"]')
+  .setAttribute(
+    'content',
+    'width=' + siteWidth + ', initial-scale=' + scale + ''
+  );
